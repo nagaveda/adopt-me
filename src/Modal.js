@@ -16,4 +16,4 @@ const Modal = ({ children }) => {
   return createPortal(<div>{children}</div>, elRef.current);
 };
 
-export default modalRoot;
+export default Modal;
